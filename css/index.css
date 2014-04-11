@@ -13,6 +13,7 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
 .image {
   display: block;
   height: auto;
@@ -22,7 +23,7 @@ html, body {
 .image-1 {
   float: left;
   width: 429px;
-  margin: 98px 0 0 9.4166666666%;
+  margin: 90px 0 0 100px;
 }
 
 .image-2 {
@@ -35,62 +36,54 @@ html, body {
 }
 
 .image-3 {
-  position: relative;
+  position: absolute;
   float: right;
-  clear: both;
-  z-index: 1;
   width: 506px;
-  margin: -1100px 6.5% 0 0;
+  margin: 64px 0 0 700px;
 }
 
 @media(max-width: 1050px) {
-  .image-1 {
-    width: 380px;
-    margin-top: 76px;
-    margin-left: 6.3809523809%;
-  }
+.image-1 {
+  float: left;
+  width: 400px;
+  margin: 90px 0 0 50px;
+}
 
   .image-2 {
     position: relative;
     z-index: 0;
-    width: 1552px;
+    width: 1400px;
     margin-top: 91px;
     margin-left: -24.5714285715%;
   }
 
-  .image-3 {
-    position: relative;
-    z-index: 1;
-    width: 462px;
-    margin-top: -1110px;
-    margin-right: 4.7619047619%;
-  }
+.image-3 {
+  position: absolute;
+  float: left;
+  width: 480px;
+  margin: 64px 0 0 540px;
 }
 
 @media(max-width: 960px) {
-  body {
-    font-size: 1em;
-  }
-  .image-1 {
-    margin-top: 42px;
-    margin-left: 5.625%;
-  }
+.image-1 {
+  float: left;
+  margin: 90px 0 0 20px;
+}
 
   .image-2 {
     position: relative;
     z-index: 0;
-    width: 1447px;
+    width: 1250px;
     margin-top: 79px;
     margin-left: -25%;
   }
 
-  .image-3 {
-    position: relative;
-    z-index: 1;
-    width: 393px;
-    margin-top: -1030px;
-    margin-right: 3.2291666666%;
-  }
+.image-3 {
+  position: absolute;
+  float: left;
+  width: 400px;
+  margin: 76px 0 0 480px;
+}
 }
 
 @media(max-width: 790px) {
@@ -102,6 +95,7 @@ html, body {
     right: 0;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 20px;
   }
 
   .image-2 {
@@ -130,13 +124,14 @@ html, body {
     right: 0;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 20px;
   }
 
   .image-2 {
     position: relative;
     clear: none;
     z-index: 0;
-    width: 1200px;
+    width: 1000px;
     margin-top: 300px;
     margin-left: -35%;
   }
@@ -156,15 +151,16 @@ html, body {
     right: 0;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 20px;
   }
 
   .image-2 {
     position: relative;
     clear: none;
     z-index: 0;
-    width: 1200px;
+    width: 1000px;
     margin-top: 300px;
-    margin-left: -45%;
+    margin-left: -220px;
   }
 
   .image-3 {
@@ -177,9 +173,6 @@ html, body {
 }
 
 @media(max-width: 480px) {
-  body {
-    font-size: 1em;
-  }
   .image-1 {
     left: 0;
     right: 0;
@@ -191,9 +184,9 @@ html, body {
     position: relative;
     clear: none;
     z-index: 0;
-    width: 1000px;
+    width: 700px;
     margin-top: 300px;
-    margin-left: -300px;
+    margin-left: -170px;
   }
 
   .image-3 {
