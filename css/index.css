@@ -9,7 +9,10 @@ body {
   background-size: 137% 148%;
   font-size: 1em;
 }
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .image {
   display: block;
   height: auto;
