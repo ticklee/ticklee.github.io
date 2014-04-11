@@ -176,6 +176,7 @@ html, body {
   .image-1 {
     left: 0;
     right: 0;
+    background-size: 90% 90%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -203,7 +204,7 @@ html, body {
   .image-1 {
     left: 0;
     right: 0;
-    width: 300px;
+    background-size: 310px 55px;
     margin-right: auto;
     margin-left: auto;
   }
