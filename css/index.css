@@ -192,6 +192,35 @@ html, body {
   .image-3 {
     left: 0;
     right: 0;
+    width: 360px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media(max-width: 320px) {
+  .image-1 {
+    left: 0;
+    right: 0;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .image-2 {
+    position: relative;
+    clear: none;
+    z-index: 0;
+    width: 700px;
+    margin-top: 300px;
+    margin-left: -170px;
+  }
+
+  .image-3 {
+    left: 0;
+    right: 0;
+    width: 310px;
     margin-top: 100px;
     margin-right: auto;
     margin-left: auto;
