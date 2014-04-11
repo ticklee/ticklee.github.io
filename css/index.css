@@ -176,9 +176,9 @@ html, body {
   .image-1 {
     left: 0;
     right: 0;
-    background-size: 320px 57px;
+    background-size: 340px 60px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 70px;
   }
 
   .image-2 {
